@@ -44,6 +44,35 @@ Steps include:
 * Streamlit
 * PIL (Image Processing)
 
+## Setup and Installation
+
+Follow these steps to configure your environment and run the Streamlit application locally on your machine.
+
+### Prerequisites
+Make sure you have [Anaconda](https://anaconda.com) installed on your system.
+
+### 1. Environment Setup
+Open your terminal and activate the project environment. If you created a dedicated environment for training your model, activate it here:
+
+```bash
+conda activate tensorflow
+```
+
+### 2. Install Dependencies
+Ensure all the required packages for running the web application and the model inference are installed:
+
+```bash
+pip install streamlit tensorflow scikit-learn opencv-python matplotlib
+```
+
+### 3. Running the Application
+Navigate to your project root folder (`streamlit-demo`) where `main.py` is located, and launch the server:
+
+```bash
+streamlit run main.py
+```
+
+After running this command, your default browser should automatically open a new tab at `http://localhost:8501` displaying the app interface. If it doesn't open automatically, you can copy and paste that local URL manually.
 
 
   
